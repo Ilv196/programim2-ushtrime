@@ -1,0 +1,68 @@
+//Shkruani nje program qe gjen perimetrin dhe siperfaqen e figurave gjeometrike te meposhtme:
+
+//Drejtkendesh	
+using System;
+class SeminariI
+{
+  static void Main()
+    {
+        int a = 10;
+        int b = 12;
+        int pdrejtk = 2 * a + 2 * b;
+        int sdrejtk = a * b;
+        Console.WriteLine($"Perimetri i drejekendeshit eshte: {pdrejtk} \nSiperfaqja e drejtekendeshit eshte: {sdrejtk}");
+    }
+} 
+
+//Trekendesh
+using System;
+
+class SeminariI
+{
+  static void Main()
+    {
+        int baza = 10;
+        int brinja1 = 12;
+        int brinja2 = 8;
+        int h = 4;
+        int ptk = baza + brinja1 + brinja2;
+        int stk = (baza * h) / 2;
+        Console.WriteLine($"Perimetri i trekendeshit eshte: {ptk} \nSiperfaqja e trekendeshit eshte: {stk}");
+    }
+}
+
+//Rreth
+using System;
+
+class SeminariI
+{
+  static void Main()
+    {
+        double rreze = 7.0;
+        double pi = 3.14;
+        double siperfaqja = pi * rreze * rreze;
+        double perimetri = 2 * pi * rreze;
+        Console.WriteLine($"Perimetri i rrethit eshte: {perimetri} \n Siperfaqja e trekendeshit eshte: {siperfaqja}");
+    }
+}
+
+//Trapez
+using System;
+
+class SeminariI
+{
+  static void Main()
+    {
+        int b1 = 10; 
+        int b2 = 6;  
+        int l1 = 8;  
+        int l2 = 8;  
+        int h = 5;   
+
+        int perimetri = b1 + b2 + l1 + l2;
+        int siperfaqja = (b1 + b2) * h / 2;
+
+        Console.WriteLine($"Perimetri i trapezit është: {perimetri}");
+        Console.WriteLine($"Sipërfaqja e trapezit është: {siperfaqja}");
+    }
+}
