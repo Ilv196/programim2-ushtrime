@@ -1,0 +1,26 @@
+/* Shkruani nje program qe realizon kursin e kembimit ne monedha te ndryshme si:
+1.	EUR
+2.	USD
+Fillimisht perdoruesi vendos sa eshte vlera e kembimit te EUR dhe USD perkatesisht. */
+
+using System;
+class SeminariI
+{
+  static void Main()
+    {
+        Console.Write("Vendos kursin e kembimit per EUR: ");
+        double kursiEUR = double.Parse(Console.ReadLine());
+
+        Console.Write("Vendos kursin e kembimit per USD: ");
+        double kursiUSD = double.Parse(Console.ReadLine());
+
+        Console.Write("Vendos shumen per te konvertuar: ");
+        double shuma = double.Parse(Console.ReadLine());
+       
+        double rezultatiEURtoUSD = shuma * kursiEUR;
+        double rezultatiUSDtoEUR = shuma * kursiUSD;
+
+        Console.WriteLine($"{shuma} EUR jane {rezultatiEURtoUSD} USD.");
+        Console.WriteLine($"{shuma} USD jane {rezultatiUSDtoEUR} EUR.");
+    }
+} 
