@@ -1,0 +1,26 @@
+/*Shkruani nje program ne C# qe afishon ne rreshta te vecante:
+	*Emri
+	*Mbiemri
+	*Mosha
+	*Vendlindja
+	*Profesioni */
+
+using System;
+
+class SeminariI
+{
+  static void Main()
+    { 
+    string emri = "Ilva";
+    string mbiemri = "Veli";
+    int mosha = 28;
+    string vendlindja = "Delvine";
+    string profesioni = "Programuese";
+
+  Console.WriteLine($"Emri={emri}");
+  Console.WriteLine($"Mbiemri={mbiemri}");
+	Console.WriteLine($"Mosha={mosha}");
+	Console.WriteLine($"Vendlindja={vendlindja}");
+	Console.WriteLine($"Profesioni={profesioni}");
+ }
+}
