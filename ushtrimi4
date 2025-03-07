@@ -1,0 +1,22 @@
+/*Krijoni nje program qe afishon rezultatin e shprehjeve te meposhtme:
+a. -10 + 7 * 5
+b. (25+4) % 9
+c. 10 + -3*4 / 9
+d. 1 + 23 / 3 * 2 - 7 % 3 */
+
+using System;
+class SeminariI
+{
+  static void Main()
+    {
+        double rezultatia = 25.0;
+        double rezultatib = 2.0;
+        double rezultatic = 9.3;
+        double rezultatid = 3.8;
+        Console.WriteLine($"Rezultatia={rezultatia}");
+        Console.WriteLine($"Rezultatib={rezultatib}");
+        Console.WriteLine($"Rezultatic={rezultatic}");
+        Console.WriteLine($"Rezultatid={rezultatid}");
+    }
+} 
+
