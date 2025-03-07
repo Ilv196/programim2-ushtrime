@@ -1,0 +1,23 @@
+/*Lexoni 5 numra nga perdoruesi dhe afishoni shumen dhe mesataren e tyre. */
+using System;
+
+class SeminariI
+{
+  static void Main()
+    {
+        Console.WriteLine("Fusni numrin nr1");
+        int.TryParse(Console.ReadLine(), out int nr1);
+        Console.WriteLine("Fusni numrin nr2");
+        int.TryParse(Console.ReadLine(), out int nr2);
+        Console.WriteLine("Fusni numrin nr3");
+        int.TryParse(Console.ReadLine(), out int nr3);
+        Console.WriteLine("Fusni numrin nr4");
+        int.TryParse(Console.ReadLine(), out int nr4);
+        Console.WriteLine("Fusni numrin nr5");
+        int.TryParse(Console.ReadLine(), out int nr5);
+        int shuma = nr1 + nr2 + nr3 + nr4 + nr5;
+
+        double mesatarja = shuma / 5.0;
+        Console.WriteLine($"Shuma eshte:{shuma} \n Mesatarja eshte:{mesatarja}");
+    }
+} 
