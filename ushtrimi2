@@ -1,0 +1,16 @@
+/*Krijoni nje program i cili lexon 2 numra dhe tregon mbetjen nga pjestimi i tyre duke perdorur operatorin %, duke supozuar se nr1 > nr2 */
+
+using System;
+class SeminariI
+{
+  static void Main()
+    {
+        Console.WriteLine("Shkruaj numrin e parë (nr1): ");
+        int nr1 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Shkruaj numrin e dytë (nr2): ");
+        int nr2 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine($"Mbetja e pjestimit është: {nr1 % nr2}");
+    }
+}
