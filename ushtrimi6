@@ -1,0 +1,19 @@
+using System;
+
+class Ushtrimi6
+{
+    static void Main(string[] args)
+    {
+    Console.WriteLine("Vendosni nje numer te plote:");
+    int.TryParse(Console.ReadLine(),out int n);
+       
+    for (int i = 1; i <= n; i++)
+    {
+       if (i % 2 == 0)
+       {
+       Console.WriteLine(i);
+       }
+
+    }
+    } 
+}
