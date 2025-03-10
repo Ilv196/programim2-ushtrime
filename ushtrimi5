@@ -1,0 +1,24 @@
+using System;
+
+class Ushtrimi5
+{
+    static bool Main(string[] args)
+    {
+        Console.WriteLine("Vendosni nje string:");
+        string tekst = Console.ReadLine();
+        
+        char a = tekst[0];
+
+        for (int i = 1; i < tekst.Length; i++)
+        {
+            char b = tekst[1];
+
+            if (b != a)
+            {
+            return false;
+            }
+        }
+                return true;
+         
+     } 
+}
