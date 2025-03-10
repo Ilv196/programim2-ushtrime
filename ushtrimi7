@@ -1,0 +1,12 @@
+using System;
+
+class Ushtrimi7
+{
+    static void Main()
+        {
+        Console.WriteLine("Shkruaj një fjali:");
+        string input = Console.ReadLine();
+        string[] words = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+        Console.WriteLine($"Numri i fjaleve: {words.Length}");
+        }
+}
