@@ -1,0 +1,16 @@
+using System;
+
+public class Ushtrimi1
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine ("Vendos nje numer");
+        int.TryParse(Console.ReadLine(), out int n);
+        int i=1;
+        while(i<=n)
+        {
+        Console.WriteLine (i);
+        i++;
+        }
+    }
+}
