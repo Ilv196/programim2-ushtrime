@@ -1,0 +1,39 @@
+using System;
+
+class Ushtrimi8
+{
+    static void Main(string[]args)
+    {
+        Console.Write("Shkruaj numrin e pare: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Shkruaj numrin e dyte: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Zgjidh operatorin (+, -, *, /): ");
+        char op = Convert.ToChar(Console.ReadLine());
+
+        double result = 0;
+
+        switch (op)
+        {
+            case '+':
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            case '/':
+                result = num1 / num2;
+                break;
+            default:
+                Console.WriteLine("Operator i pavlefshem.");
+                return;
+        }
+
+        Console.WriteLine($"Rezultati: {result}");
+    }
+}
