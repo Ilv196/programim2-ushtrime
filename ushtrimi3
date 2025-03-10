@@ -1,0 +1,18 @@
+using System;
+
+public class Ushtrimi3
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine ("Vendos numrin 1");
+        int.TryParse(Console.ReadLine(), out int n);
+        int count = 0;
+        do
+        {
+          count++;
+          n /= 10;
+        } 
+        while (n > 0);
+        Console.WriteLine($"Numri ka {count} shifra.");
+    }
+}
