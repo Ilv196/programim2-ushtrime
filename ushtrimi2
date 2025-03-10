@@ -1,0 +1,19 @@
+using System;
+
+class Ushtrimi2
+{
+    static void Main(string[]args)
+    {
+        Console.Write("Shkruani numrin e pare: ");
+        int a = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Shkruani numrin e dyte: ");
+        int b = Convert.ToInt32(Console.ReadLine());
+        if(a>b)
+        {
+        Console.WriteLine("Numri a eshte me i madh se b.");
+        }
+        else {
+        Console.WriteLine("Numri a eshte me i vogel se b.");
+             }
+    }
+}
