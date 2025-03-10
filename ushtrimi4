@@ -1,0 +1,19 @@
+using System;
+
+class Ushtrimi4
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Vendos vitin:");
+        int.TryParse(Console.ReadLine(),out int n);
+        if (n % 4 == 0 && n % 100 != 0) || (year % 400 == 0);
+        {
+        Console.WriteLine("Ky vit eshte i brishte.");
+        } 
+        else
+        {
+        Console.WriteLine("Ky vit nuk eshte i brishte.");
+        }
+
+     }
+}
