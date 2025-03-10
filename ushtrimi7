@@ -2,7 +2,7 @@ using System;
 
 class Ushtrimi7
 {
-    static void Main()
+    static void Main(string[]args)
         {
         Console.WriteLine("Shkruaj një fjali:");
         string input = Console.ReadLine();
